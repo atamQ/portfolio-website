@@ -158,6 +158,9 @@ svg{
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 	text-align: center;
+	position: fixed;
+	margin-bottom: 0px;
+	background-color: cadetblue;
 }
 
 .grid{
