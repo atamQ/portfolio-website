@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 	<meta charset="utf-8">
 		<title>Contact Page for Matt Q</title>
@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.production.css">
 	</head>
 	<body>
-		<div>
+		<header class="page-header">
 			<img src="./img/logo.png" alt="logo" class="page-header__item">
 			<nav class="main-navigation page-header__item">
 						<ul role="menubar" class="navigation-list">
@@ -18,6 +18,8 @@
 							<li role="presentation">
 								<a href="about.html" role="menuitem" class="navigation-list__item">ABOUT</a>
 							</li>
+						</ul>
+						<ul role="menubar" class="navigation-list">
 							<li role="presentation">
 								<a href="work.html" role="menuitem" class="navigation-list__item">WORK</a>
 							</li>
@@ -27,44 +29,57 @@
 						</ul>
 					</nav>	
 			
+		</header>
+		<div class="grid-container">
+			<div id="grid-container__One">
+				Matt's house<br>
+				123 Main St. <br>
+				SLC, UT<br>
+			</div>
+			<div id="grid-container__Two">
+				Tel <a href="tel:8014034978">801.403.4978</a><br>
+				Skype <a href="skype:hellow.careerfoundry"> hello.careerfoundry</a><br>
+				<a href="mailto:mattgq2@gmail.com">mattgq2@gmail.com</a>
+			</div>
+			
+			<div id="grid-container__Three">
+				<form action="#" method="post" id="contact-form">
+					<table>
+						<tr>
+							<td><h3>I can also be reached through this form</h3></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><label class="standard-label">E-mail: </label></td>
+							<td><input type="email" required></td>
+						</tr>
+							
+						<tr>
+							<td><label class="standard-label">Telephone:</label></td>
+							<td><input type="tel" pattern="\d{3}[\-]\d{3}\-d{4}"></td>
+						</tr>
+							
+						<tr>
+							<td><label class="standard-label">Message:</label></td>
+							<td><textarea maxlength="240"></textarea></td>
+						</tr>
+							
+						<tr>
+							<td><input type="submit" value="Send Message"></td>
+							<td></td>
+						</tr>
+					</table>
+				</form>
+			</div>
 		</div>
-		<div>
-			Matt's house<br>
-			123 Main St. <br>
-			SLC, UT<br>
-			<br>
-			Tel <a href="tel:8014034978">801.403.4978</a><br>
-			SKype <a href="skype:hellow.careerfoundry"> hello.careerfoundry</a><br>
-			<a href="mailto:mattgq2@gmail.com">mattgq2@gmail.com</a>
-		</div>
-		
-		<footer>
-		<form action="#" method="post" id="contact-form">
-			<table>
-				<tr>
-					<td><h3>I can also be reached through this form</h3></td>
-				</tr>
-				<tr>
-					<td><label class="standard-label">E-mail: </label></td>
-					<td><input type="email" required></td>
-				</tr>
-					<br>
-				<tr>
-					<td><label class="standard-label">Telephone:</label></td>
-					<td><input type="tel" pattern="\d{3}[\-]\d{3}\-d{4}"></td>
-				</tr>
-					<br>
-				<tr>
-					<td><label classs="standard-label">Message:</label></td>
-					<td><textarea maxlength="240"></textarea></td>
-				</tr>
-					<br>
-				<tr>
-					<td><input type="submit" value="Send Message"></td>
-				</tr>
-			</table>
-		</form>
+		<footer class="page-footer">
+			<p>Find me on</p>
+				<div class="social-media">
+					<a href="https://github.com/atamQ"><img src="./img/github.gif" alt="Github"></a>	
+					<a href="#2"><img src="./img/linkedIn.gif" alt="LinkedIn"></a>
+					<a href="#3"><img src="./img/twitter.gif" alt="Twitter"></a>
+				</div> 
 		</footer>
 	</body>
-	<script src="js/tota11y.min.js"></script>
+	
 </html>
