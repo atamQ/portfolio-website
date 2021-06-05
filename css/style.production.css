@@ -129,6 +129,7 @@ svg{
 	display: flex;
 	width: 100%;
 	padding: 20px;
+	background-color: azure;
 }
 
 .page-header img{
@@ -159,8 +160,13 @@ svg{
 	        flex-direction: column;
 	text-align: center;
 	position: fixed;
-	margin-bottom: 0px;
-	background-color: cadetblue;
+	bottom: -70px;
+	background-color: azure;
+	width: 100%;
+}
+
+.page-footer:hover{
+	bottom:0;
 }
 
 .grid{
@@ -187,6 +193,21 @@ svg{
 
 .navigation-list__item--active{
 	text-decoration: none;
+}
+
+/******CONTACT FORM DIVS********/
+#form-header{
+	margin: auto;
+}
+
+#form-header__one{
+	margin-left: 20%;
+	float:left;
+}
+
+#form-header__two{
+	margin-right: 20%;
+	float: right;
 }
 
 @-webkit-keyframes color-change{
