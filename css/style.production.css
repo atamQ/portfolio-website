@@ -71,6 +71,10 @@ a:hover a:focus{
 	color: #489c79;
 }
 
+footer{
+	
+}
+
 button,
 .button {
 	border: none;
@@ -196,8 +200,12 @@ svg{
 }
 
 /******CONTACT FORM DIVS********/
-#form-header{
+table{
 	margin: auto;
+}
+
+#form-header{
+	height: 100px;
 }
 
 #form-header__one{
