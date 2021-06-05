@@ -137,7 +137,8 @@ svg{
 }
 
 .page-header img{
-	width: 90px;
+	width: 20%;
+	height: 20%;
 }
 
 .page-header__item{
